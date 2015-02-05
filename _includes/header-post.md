@@ -1,3 +1,4 @@
+<head><link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css"></head>
 <ul>
           {% for page in site.html_pages %}
             <li>
