@@ -1,1 +1,26 @@
-"hello world" 
+---
+layout: post
+title: Blogging with Jekyll
+---
+<!DOCTYPE HTML>
+{% include header.html %}
+
+      <h1>{{ page.title }}</h1>
+      <p>Time is {{ site.time | date_to_string}} </p>
+      <p>Testing {{ site.data.sample.string }}</p>
+      
+      <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+      </ul>
+      
+      {% highlight java linenos%}
+      // This is a code sample
+        String a = foo
+        System.out.println(a);
+      {% endhighlight %}
+
+{% include footer.html %}
