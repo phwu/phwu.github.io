@@ -1,10 +1,10 @@
-@import url('http://fonts.googleapis.com/css?family=Raleway');
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 
 body {
-    font: Raleway;
+    font-family: 'Raleway', sans-serif;
     background-color: lightblue;
 }
 h1 {
-    color: navy;
+    font-family: 'Raleway', sans-serif;
     margin-left: 20px;
 }
