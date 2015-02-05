@@ -1,3 +1,3 @@
-{% include header-post.html %}
+{% include header-post.md %}
 
-<p>Blah blah blah </p>
+Blah blah blah

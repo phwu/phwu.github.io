@@ -1,5 +1,14 @@
 <html>
   <head>
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+    <ul>
+          {% for page in site.html_pages %}
+            <li>
+              <a href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+          {% endfor %}
+    </ul>
+    <h1>{{ page.title }}</h1>
