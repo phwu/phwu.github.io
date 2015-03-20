@@ -1,0 +1,16 @@
+{% include header.html %}
+<h4>{{ page.date | date_to_string}}</h4>
+<p>This application was initiated as a project to learn AngularJS frontend 
+along with some Bootstraps. The application utilizes Riot Games' API to 
+populate <strong>all</strong> of the app's content. Since the API uses 
+versioning as part of the request, the application's data will always 
+remain up to date as the company releases new content.</p>
+
+<h3>Enhancements/Fixes:</h3>
+<ul>
+    <li>Some of string values are not being sanitized properly (e.g. Akali, Bard, etc.)</li>
+    <li>Will want to include images (i.e. skins gallery)</li>
+    <li>Styling approach, considering HTML5 Boilerplate for x-platforms</li>
+</ul>
+
+{% include footer.html %}

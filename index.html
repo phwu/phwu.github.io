@@ -1,10 +1,10 @@
 ---
-title: Blogging with Jekyll
+title: Phwu's Github Page
 ---
 {% include header.html %}
 
-      <p>Time is {{ site.time | date_to_string}} </p>
-      <p>Testing {{ site.data.sample.string }}</p>
+<!--      <p>Time is {{ site.time | date_to_string}} </p> -->
+<!--      <p>Testing {{ site.data.sample.string }}</p> -->
       
       <ul>
           {% for post in site.posts %}
@@ -13,11 +13,13 @@ title: Blogging with Jekyll
             </li>
           {% endfor %}
       </ul>
-      
+
+<!--      
       {% highlight java linenos%}
       // This is a code sample
         String foo = bar;
         System.out.println(foo);
       {% endhighlight %}
+-->
 
 {% include footer.html %}
